@@ -24,3 +24,8 @@ void mahasiswa::setID() {		//method setID
 	id = ++nim;					//Ada operasi pengubah (++nim)
 }
 
+void mahasiswa::printAll() {
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+}
