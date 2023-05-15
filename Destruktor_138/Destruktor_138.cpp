@@ -39,3 +39,10 @@ void angka::isiData() {
 	cout << endl;
 }
 
+int main() {
+	angka belajarcpp(3);						//Contructor Dipanggil (nilai panjang = 3)
+	angka* ptrBelajarcpp = new angka(5);		//Constructor Dipanggil
+	delete ptrBelajarcpp;						//Destructor Dipanggil (cetak dulu,tampilkan datanya, baru dia menghpus arrnya)
+
+	return 0;
+}					//Donstructor Dipanggil
