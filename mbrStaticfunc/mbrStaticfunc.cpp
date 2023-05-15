@@ -20,3 +20,7 @@ public:
 
 int mahasiswa::nim = 0;			//Akses melalui class (nilai=0)
 
+void mahasiswa::setID() {		//method setID 
+	id = ++nim;					//Ada operasi pengubah (++nim)
+}
+
